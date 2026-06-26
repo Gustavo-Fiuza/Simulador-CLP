@@ -127,12 +127,6 @@ java -cp bin screens.HomePg
 
 ---
 
-## ▶️ Demonstração
-
-- Vídeo de Funcionamento: [https://youtu.be/ITxNPlzTezQ](https://youtu.be/ITxNPlzTezQ)
-
----
-
 ## 📚 Referências
 
 - Projeto de Referência: [https://github.com/Diogo-NB/SimuladorClp](https://github.com/Diogo-NB/SimuladorClp)
