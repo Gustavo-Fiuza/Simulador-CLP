@@ -1,0 +1,46 @@
+TON     T1,50
+LD      I0.3
+ST      T1
+
+
+LD      I0.1
+OR      Q0.3
+ANDN    I0.3
+ST      Q0.3
+
+
+LD      I0.0
+OR      T1
+OR      Q0.4
+ANDN    I0.2
+ST      Q0.4
+
+
+LD      Q0.3
+OR      Q0.4
+ST      Q0.2
+
+
+LD      Q0.3
+AND     I0.5
+AND     I0.6
+ANDN    Q0.1
+ST      Q0.0
+
+
+LD      Q0.4
+AND     I0.5
+AND     I0.6
+ANDN    Q0.0
+ST      Q0.1
+
+
+LD      I0.2
+ST      Q1.0
+
+LD      I0.3
+ST      Q1.2
+
+LDN     I0.2
+ANDN    I0.3
+ST      Q1.1
